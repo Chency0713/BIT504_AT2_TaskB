@@ -18,7 +18,7 @@ public class Sprite {
     private Color colour;
     private int initialXPosition,initialYPosition;
     
-    //getter method--return the variables
+    //getter method--return the variables 
     public int getxPosition() {
     	return xPosition;
     } 
@@ -52,7 +52,7 @@ public class Sprite {
     public void setxVelocity(int xVelocity) {
     	this.xVelocity = xVelocity;
     }
-    public void setyxVelocity(int yVelocity) {
+    public void setyVelocity(int yVelocity) {
     	this.yVelocity = yVelocity;
     }
     public void setWidth(int width) {
