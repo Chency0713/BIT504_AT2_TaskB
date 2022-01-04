@@ -5,7 +5,7 @@ import java.awt.Color;
 public class Ball extends Sprite {
 	//2.Add final static variables for the colour, width and height of the ball. 
 	//Make the width and height 25. Colour should be white.
-	private final static Color BALL_COLOUR = Color.WHITE;
+	private final static Color BALL_COLOUR = Color.RED;
 	private final static int BALL_WIDTH = 25;
 	private final static int BALL_HEIGHT = 25;
 	
