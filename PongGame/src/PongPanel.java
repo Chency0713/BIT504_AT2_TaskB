@@ -39,7 +39,7 @@ public class PongPanel extends JPanel implements ActionListener, KeyListener {
     
     //With the basic game play now complete the next step is to add win conditions for the game. 
     //We need some method to track the score, a method to increase scores, and a method to detect if the game has been won and display this.
-    private final static int POINTS_TO_WIN = 11; //indicate how many points a player must have to win the game.
+    private final static int POINTS_TO_WIN = 3; //indicate how many points a player must have to win the game.
     int player1Score = 0, player2Score = 0;
     Player gameWinner; //Hold the player who has won
     
