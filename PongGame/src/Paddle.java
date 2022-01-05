@@ -1,10 +1,10 @@
 import java.awt.Color;
 
 
-//1.Create a new class named ìPaddleî that inherits from the Sprite class. 
-//2.Add static final variables for the width, height, colour and distance from edge. Set values for each of these
+ //1.Create a new class named ‚ÄúPaddle‚Äù that inherits from the Sprite class. 
+ //2.Add static final variables for the width, height, colour and distance from edge. Set values for each of these
 
-public class Paddle extends Sprite {
+  public class Paddle extends Sprite {
 	private static final int PADDLE_WIDTH= 10;
 	private static final int PADDLE_HEIGHT =100;
 	private static final Color PADDLE_COLOR=Color.YELLOW;
